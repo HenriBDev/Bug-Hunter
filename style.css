@@ -1,0 +1,197 @@
+/* Game sprites textures */
+[tileType="ground"]{
+    /* Aligns the entities inside */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(media/tileGround.png);
+}
+
+[tileType="breakable"]{
+    background-image: url(media/tileBreakable.png);
+}
+
+[tileType="unbreakable"]{
+    background-image: url(media/tileUnbreakable.png);
+}
+
+.entity{
+    /* Enabling overlap of entities */
+    position: absolute;
+    height: 64px;
+    width: 64px;
+}
+
+[entityType="bomb"]{
+    background-image: url(media/bomb.png);
+}
+
+[entityType="explosion"]{
+    height: 75px;
+    width: 75px;
+    background-image: url(media/explosion.png);
+}
+
+.bombRange{
+    background-image: url(media/bombRange.png);
+}
+
+.bombStorage{
+    background-image: url(media/bombStorage.png);
+}
+
+[entityType="player"]{
+    background-image: url(media/player.png);
+}
+
+[entityType="enemy"]{
+    background-image: url(media/enemyDown.png);
+}
+/* Game Sprites textures */
+
+
+
+@font-face{
+    font-family: Hardpixel Regular;
+    src: url(media/hardpixel.regular.otf) 
+}
+
+body{
+    color: white;
+    margin: 0;
+    background-color:#000055;
+    display: grid;
+    grid-template: ". header ." 1fr
+                   ". main ." 4fr
+                   ". footer ." 1fr / 
+                   1fr 4fr 1fr; 
+    row-gap: 10px;
+    font-family: Hardpixel Regular;
+}
+
+header{
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    height: 96px;
+    width: 96px;
+    background-image: url(media/playerLogo.png);
+}
+
+.title{
+    font-size: 40pt;
+    height: 44px;
+    margin-left: 20px;
+}
+
+
+main{
+    grid-area: main;
+
+    background-color: #ffffff;
+    border: 5px solid #0000ff;
+    box-shadow: 0px 0px 10px 5px #0000ff;
+    max-width: 1200px;
+    min-width: 1200px;
+    max-height: 720px;
+    min-height: 720px;
+    width: 1200px;
+    height: 720px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.gameScreen{
+    color: black;
+    height: 600px;
+}
+
+/* Enabling overlap of the UI over the game map */
+.gameScreen > div{
+    position: absolute;
+    height: 600px;
+    width: 1200px;
+}
+
+#mapGrid{
+    color: black;
+    display: grid;
+    grid-template: repeat(8, 75px) / repeat(16, 75px);
+}
+
+#mapGrid > div{
+    position: relative;
+}
+
+.menuUI{
+    background-color: #ffffffa9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menuMessage{
+    display: none;
+    font-size: 40px;
+}
+
+.menuButton{
+    position: relative;
+    font-family: Hardpixel Regular;
+    width: 350px;
+    height: 75px;
+    font-size: 30pt;
+    border: 5px solid;
+    box-shadow: 1px 1px 3px 1px #858585 ;
+}
+
+.menuButton:hover{
+    background-color: #dad6d6;
+}
+
+.menuButton:active{
+    top: 1px;
+    left: 1px;
+    background-color: #dad6d6;
+    box-shadow: none;
+}
+
+.hud{
+    font-size: 30pt;
+    height: 120px;
+    background-color: #000027;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Adding lines to separate the HUD */
+.hud div{
+    padding: 20px 60px;
+}
+
+#score, #level{
+    border-left: 5px solid #0000ff;
+    border-right: 5px solid #0000ff;
+}
+
+footer{
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30pt;
+    color: white;
+    text-align: center;
+}
+
+/* Highlighting the keys used in the game */
+footer span{
+    color: yellow
+}
