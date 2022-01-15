@@ -724,6 +724,7 @@ document.onreadystatechange = () => {
             generateNewMap();
             spawnEntity("player", document.querySelector("#t00"));
             enemyEntities = 0;
+            bombEntities = 0;
             spawnEnemies(level);
             startEnemyMovement(level);
             bombStorage = 1;
