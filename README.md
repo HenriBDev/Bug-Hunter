@@ -13,9 +13,11 @@ Use Spacebar to drop your fix bombs.
 
 You can get power-ups by fixing the messed code parts spread across the map.
 
-Be careful to not get stuck on dead ends and letting the fix explosion reach you, there are some parts of the code that both you and the bugs will have your access denied.
+Be careful not to get stuck on dead ends and letting the fix explosion reach you, there are some parts of the code where both you and the bugs will have your access denied.
 
 Don't lose all your health points and accumulate your score as you pass through the levels.
+
+## [Play the game here!](henribdev.github.io/bug-hunter/)
 
 ## Development
 

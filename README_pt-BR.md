@@ -13,9 +13,11 @@ Use Barra de espaço para soltar suas bombas de conserto.
 
 Você pode conseguir poderes consertando as partes bagunçandas do código espalhadas pelo mapa.
 
-Cuidado para não acabar se prendendo em áreas sem escapatória e deixar a explosão do conserto alcançar você, há algumas partes do código que tanto você quanto os bugs terão seu acesso negado.
+Cuidado para não acabar se prendendo em áreas sem escapatória e deixar a explosão do conserto alcançar você, há algumas partes do código onde você e os bugs terão seu acesso negado.
 
 Não perca todos os seus pontos de vida e acumule sua pontuação enquanto passa pelos níveis.
+
+## [Jogue o jogo aqui!](henribdev.github.io/bug-hunter/)
 
 ## Desenvolvimento
 
