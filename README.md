@@ -17,7 +17,7 @@ Be careful not to get stuck on dead ends and letting the fix explosion reach you
 
 Don't lose all your health points and accumulate your score as you pass through the levels.
 
-## [Play the game here!](henribdev.github.io/bug-hunter/)
+### Play the game here: https://henribdev.github.io/Bug-Hunter/
 
 ## Development
 

@@ -17,7 +17,7 @@ Cuidado para não acabar se prendendo em áreas sem escapatória e deixar a expl
 
 Não perca todos os seus pontos de vida e acumule sua pontuação enquanto passa pelos níveis.
 
-## [Jogue o jogo aqui!](henribdev.github.io/bug-hunter/)
+### Jogue o jogo aqui: https://henribdev.github.io/Bug-Hunter/
 
 ## Desenvolvimento
 
