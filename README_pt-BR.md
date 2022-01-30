@@ -23,6 +23,6 @@ Não perca todos os seus pontos de vida e acumule sua pontuação enquanto passa
 
 Esse jogo foi feito usando HTML, CSS e JavaScript padrões.
 
-Versão atual - 0.0.2.
+Versão atual - 0.0.3
 
 Jogo feito por: <b>Henrique Barbosa</b>.<br>LinkedIn - https://www.linkedin.com/in/henribdev/<br>GitHub - https://github.com/HenriBDev/
