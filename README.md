@@ -23,7 +23,7 @@ Don't lose all your health points and accumulate your score as you pass through 
 
 This game was made using standard HTML, CSS and JavaScript.
 
-Current version - 0.0.3
+Current version - 1.0.3
 
 Game made by: <b>Henrique Barbosa</b>.<br>LinkedIn - https://www.linkedin.com/in/henribdev/<br>GitHub - https://github.com/HenriBDev/
 
