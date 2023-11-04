@@ -4,7 +4,7 @@
     "textContent":{
         "pt-BR": {
             "name": "Bug-Hunter",
-            "imageAltText": "Projeto: Docwriter, Chatbot do Discord que transforma suas mensagens em documentos de texto. Este é o bot exibindo uma visualização de como está o documento, mostrando o texto presente nele, a página atual e botões para trocar de página.",
+            "imageAltText": "Projeto: Bug Hunter, jogo estilo bomberman tematizado em bugs, o campo tem ladrilhos pisáveis, bloqueados e infectados. Há um inseto inimigo e seu personagem, um escudo com uma carinha feliz.",
             "descriptionText": "Jogo estilo Bomberman desenvolvido com JS puro."
         },
         "en": {
